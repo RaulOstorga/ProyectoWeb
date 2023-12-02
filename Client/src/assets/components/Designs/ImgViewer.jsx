@@ -40,13 +40,6 @@ const ImageViewer = () => {
         >
           OCUPAR
         </button>
-        <button
-          type="button"
-          className="bg-[#0496FF] text-white px-4 py-2 rounded"
-          onClick={handleClickModal}
-        >
-          CALIFICAR
-        </button>
       </div>
 
       <ModalDesign isOpen={modalOpen} onClose={() => setModalOpen(false)} onConfirm={() => setModalOpen(false)} onStarClick={handleStarClick} />
